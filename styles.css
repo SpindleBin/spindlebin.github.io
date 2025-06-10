@@ -1,0 +1,14 @@
+titlebar {
+    height: 128px;
+    text-align: center;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+body home {
+    text-align: center;
+}
