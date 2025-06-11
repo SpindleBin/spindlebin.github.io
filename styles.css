@@ -16,15 +16,42 @@ body hr {
     color: black;
 }
 
+body header {
+    display: flex;
+    border-bottom: 2px solid darkslategray;
+    background-color: rgb(0, 0, 15);
+}
+
 body section {
+    max-width: 50%;
+    border: whitesmoke;
+    border-style: dashed;
+    background-color: rgb(0, 0, 15);
+    text-align: center;
+    margin: 32px auto;
+    padding: 16px;
+}
+
+body section align {
+    display: flex;
+    align-items: center;
+}
+
+body .notice{
+    max-width: 25%;
     border: whitesmoke;
     border-style: dotted;
     background-color: rgb(0, 0, 15);
     text-align: center;
-    margin: 32px;
+    margin: 24px auto;
+    padding: 8px;
 }
 
-body section img {
+body .notice img {
     min-width: 32px;
     max-width: 64px;
+}
+
+img {
+    width: 128px;
 }
