@@ -35,6 +35,7 @@ body section {
 body section align {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 body .notice{
