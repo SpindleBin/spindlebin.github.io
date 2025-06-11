@@ -38,6 +38,7 @@ header h1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
 
 .imagerow img {
@@ -55,22 +56,21 @@ body section {
     text-align: center;
     margin: 2.5rem auto;
     padding: 0.5rem;
+    position: relative;
+}
+
+body section.left{
+    right: 12rem;
+}
+
+body section.right{
+    left: 12rem;
 }
 
 align {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-align.left {
-    justify-content: left;
-    padding-left: 8%;
-}
-
-align.right {
-    justify-content: right;
-    padding-right: 8%;
 }
 
 body section article {
@@ -112,5 +112,13 @@ img {
 
     body .notice {
         max-width: 50%
+    }
+
+    body section.left{
+        right: 1rem;
+    }
+
+    body section.right{
+        left: 1rem;
     }
 }
